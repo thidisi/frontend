@@ -1,0 +1,200 @@
+/* mobile-tablet-width  */
+@media only screen and (max-width: 69.5625em) {
+    .mobile-tablet-width {
+        display: flex;
+        flex-wrap: nowrap !important;
+        max-width: 100%;
+        overflow-x: auto;
+        margin: 0;
+    }
+    .footer-wrap {
+        margin-top: 12px !important;
+    }
+    .cart-right {
+        display: none;
+    }
+    .page-btn { 
+        display: none;
+    }
+    .ticket-content{
+        padding-left: 12px !important;
+        padding-right: 0 !important;
+    }
+    .top-review__users {
+        left: 7px !important;
+    }
+}
+/* Tablet pro */
+@media only screen and (min-width: 63.9375em) and (max-width: 85em) {
+    .content-resort{
+        zoom: 0.8;
+    }
+    .navbar-item__link {
+        padding: 20px 24px !important;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .content-resort {
+        zoom: 0.7;
+    }
+    .favorite-active {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+        order: 1;
+    }
+    .slide-banner--about,
+    .content-review__about--wrap,
+    .content-title,
+    .content-video--title {
+        zoom: 0.8;
+    }
+}
+
+/*Tablet  && mobi */ 
+@media screen and (max-width: 63.9375em) {
+    .navbar-list,
+    .navbar-icon {
+        display: none !important;
+    }
+    .navbar {
+        background-image: linear-gradient( to bottom right, rgb(86, 216, 223, 0.8) 0%, rgba(233, 57, 177, 0.5) 100%);
+    }
+    .navbar-logo {
+        flex: 1;
+    }
+    .navbar-logo__link {
+        display: block;
+        width: 186px;
+        height: 48px;
+    }
+    .navbar-search__mobile,
+    .navbar-user__mobile,
+    .navbar-bar__mobile {
+        display: block !important;
+    }
+
+}
+
+/*Mobile */
+@media only screen and (max-width: 46.1875em) {
+    .slide-header {
+        height: 400px !important;
+    }
+
+    .content-top__review {
+        height: 480px !important;
+    }
+
+    .navbar-search__mobile,
+    .navbar-user__mobile {
+        width: 12% !important;
+    }
+
+    .navbar-bar__mobile {
+        width: 15% !important;
+    }
+
+    .search-mobile-box {
+        top: 100% !important;
+        right: 20% !important;
+        width: 500% !important;
+        height: 70% !important;
+    }
+
+    .carousel-control--next, .carousel-control--prev {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .carousel-control--next i, .carousel-control--prev i {
+        font-size: 2rem !important;
+        line-height: 50px !important;
+    }
+
+    .carousel-control--next i {
+        margin-right: 20px !important;
+    }
+
+    .carousel-control--prev i {
+        margin-left: 20px !important;
+    }
+
+    .content-resort {
+        zoom: 0.6;
+        margin-bottom: 60px !important; 
+    }
+    .footer-about,
+    .footer-info,
+    .footer-wrap h4 {
+        text-align: center !important;
+        justify-content: center;
+    }
+    .footer-about__posts {
+        width: 70% !important;
+        margin: 0 auto;
+    }
+    .slide-banner--about,
+    .content-review__about--wrap,
+    .content-title {
+        zoom: 0.6;
+    }
+    .content-place {
+        zoom: 1.3;
+        margin-bottom: 12px !important;
+    }
+    p {
+        zoom: 0.8;
+        width: 80% !important;
+        margin: auto !important;
+    }
+
+    .review__about-text,
+    .content-title--text,
+    .footer-about {
+        margin: 20px auto 18px !important;
+    }
+
+    .users-info__description p {
+        margin: 0 !important;
+    }
+    h4 {
+        zoom:0.9;
+    }
+
+    .content-video--title {
+        zoom:0.5;
+    }
+
+    .ticket-content{
+        padding-left: 6px !important;
+        padding-right: 0 !important;
+    }
+    .top-review__users {
+        left: 4px !important;
+    }
+
+    .footer-content {
+        margin-top: 100px !important;
+    }
+
+    .footer-logo {
+        zoom: 0.8;
+    }
+
+    .scroll-top {
+        zoom: 0.8;
+        opacity: 0.8;
+    }
+    .auth-form {
+        width: 70% !important;
+        zoom: 0.85;
+    }
+    .menu-content {
+        zoom: 0.8;
+    }
+    .footer-input__btn {
+        zoom: 0.8;
+    }
+}
